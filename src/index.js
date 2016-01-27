@@ -1,5 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { App } from './App';
+import Calendar  from './components/Calendar';
+import DateBox from './components/DateBox';
+import store from './store';
+import {Provider} from 'react-redux';
+import style from './index.css';
 
-render(<App />, document.getElementById('root'));
+render(
+  <Provider store={store}>
+    <div className={style.container}>
+      <DateBox />
+      <Calendar />
+    </div>
+  </Provider>,
+  document.getElementById('root')
+);

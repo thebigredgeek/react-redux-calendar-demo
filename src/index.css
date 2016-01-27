@@ -1,0 +1,10 @@
+.container {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  //This is just a hack to center the calendar vertically for demo purposes
+  position: relative;
+  transform: translateY(50%);
+}

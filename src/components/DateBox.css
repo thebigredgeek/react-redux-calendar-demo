@@ -1,0 +1,34 @@
+.dateBoxContainer {
+  /* Text */
+  font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  color: #4d4d4d;
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-align: center;
+  cursor: default;
+
+  /* Size */
+  height: 50px;
+  width: 100%;
+
+  /* Shape */
+  border-radius: 2px;
+  background: #fff;
+
+  /* Shadow */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  /* Transition */
+  transition: all 0.2s ease-in-out;
+
+  /* Position, just a hack for demo */
+  margin-bottom: 25px;
+}
+
+.dateBoxContainer:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
